@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-   <extension
-         point="org.eclipse.m2e.core.lifecycleMappingMetadataSource">
-   </extension>
+	<extension point="org.eclipse.jdt.ui.javaElementFilters">
+		<filter
+            class="org.eclipse.m2e.addons.MavenBuildDirectoryViewFilter"
+            description="Filters the build directory from Maven projects"
+            enabled="false"
+            id="org.eclipse.m2.builddirectoryfilder"
+            name="Maven build directory filter"
+			targetId="org.eclipse.jdt.ui.PackageExplorer">
+		</filter>
+	</extension>
 </plugin>
