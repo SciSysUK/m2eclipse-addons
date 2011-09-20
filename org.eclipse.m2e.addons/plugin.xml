@@ -11,4 +11,16 @@
 			targetId="org.eclipse.jdt.ui.PackageExplorer">
 		</filter>
 	</extension>
+ <extension
+       point="org.eclipse.m2e.core.projectConfigurators">
+    <configurator
+          class="org.eclipse.m2e.addons.ActiveProfileProjectConfigurator"
+          id="org.eclipse.m2e.addons.activeprofilesconfigurator"
+          name="Active Profiles"
+          secondaryTo="org.eclipse.m2e.jdt.javaConfigurator">
+    </configurator>
+ </extension>
+ <extension
+       point="org.eclipse.m2e.core.lifecycleMappingMetadataSource">
+ </extension>
 </plugin>

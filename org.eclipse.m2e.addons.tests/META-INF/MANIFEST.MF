@@ -5,7 +5,7 @@ Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.eclipse.m2e.addons.tests
 Bundle-Version: 0.0.1.qualifier
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Require-Bundle: org.junit;bundle-version="4.8.2",
- org.eclipse.jst.jsf.core;bundle-version="1.3.5"
+Require-Bundle: org.junit;bundle-version="3.8.2",
+ org.eclipse.m2e.tests.common;bundle-version="[1.0.0,1.1.0)"
 Bundle-Vendor: %Bundle-Vendor
 Bundle-ClassPath: lib/mockito-all.jar, .
